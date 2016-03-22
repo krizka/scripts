@@ -14,7 +14,7 @@ ufw allow http # 80
 
 # setup some software 
 apt-get update
-apt-get install $INSTALL_PACKAGESA
+apt-get install $INSTALL_PACKAGES
 
 
 # start tmux on connect

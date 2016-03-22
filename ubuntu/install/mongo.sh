@@ -8,4 +8,4 @@ echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" 
 # Reload local package database.
 sudo apt-get update
 # Install the MongoDB packages.
-sudo apt-get install -y mongodb-org
+sudo apt-get install -y --force-yes mongodb-org
